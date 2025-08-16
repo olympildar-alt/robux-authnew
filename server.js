@@ -37,11 +37,12 @@ app.get('/auth', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {
   console.log(`Сервер запущен на порту ${PORT}`);
 
 });
+
 

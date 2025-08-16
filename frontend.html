@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robux за пару тапов</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0b0f14;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+    p { color: #aab3c3; margin-bottom: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Robux за пару тапов</h1>
+  <p>Авторизуйся через Telegram и начни покупки</p>
+  <script async src="https://telegram.org/js/telegram-widget.js?22"
+    data-telegram-login="MySwapBot"
+    data-size="large"
+    data-userpic="false"
+    data-radius="12"
+    data-lang="ru"
+    data-auth-url="https://robux-auth.onrender.com/auth"
+    data-request-access="write">
+  </script>
+</body>
+</html>
